@@ -1,0 +1,80 @@
+  .clock-numbers {
+    box-shadow: inset 0 0 50px #000;
+    display: table;
+    height: 260px;
+    width: 260px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 19px;
+    border-radius: 100%;
+    background: #999;
+    p {
+      font-family: 'sans-serif';
+      position: absolute;
+      margin: auto;
+      font-weight: 600;
+      color: white;
+      &.twelve {
+        right: 0;
+        text-align: center;
+        left: 0;
+        top: 0%
+      }
+      &.one {
+        right: 75px;
+        top: 21px;
+        transform: rotate(31deg);
+      }
+      &.two {
+        right: 25px;
+        top: 73px;
+        transform: rotate(54deg);
+      }
+      &.three {
+        right: 8px;
+        top: 141px;
+        transform: rotate(90deg);
+      }
+      &.four {
+        right: 25px;
+        bottom: 73px;
+        transform: rotate(115deg);
+      }
+      &.five {
+        right: 75px;
+        bottom: 23px;
+        transform: rotate(-38deg);
+      }
+      &.six {
+        right: 0;
+        text-align: center;
+        left: 0;
+        bottom: 0px;
+      }
+      &.seven {
+        left: 75px;
+        bottom: 23px;
+        transform: rotate(33deg);
+      }
+      &.eight {
+        left: 25px;
+        bottom: 73px;
+        transform: rotate(-115deg);
+      }
+      &.nine {
+        left: 8px;
+        top: 141px;
+        transform: rotate(90deg);
+      }
+      &.ten {
+        left: 25px;
+        top: 73px;
+        transform: rotate(-54deg);
+      }
+      &.eleven {
+        left: 75px;
+        top: 21px;
+        transform: rotate(-31deg);
+      }
+    }
+  }

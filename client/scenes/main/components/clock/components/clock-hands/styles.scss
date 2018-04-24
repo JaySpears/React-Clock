@@ -1,0 +1,42 @@
+.clock-hands {
+  background-color: white;
+  p {
+    &.seconds {
+      background-color: black;
+      position: absolute;
+      width: 100px;
+      height: 2px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      transform-origin: right;
+      left: 50.5px;
+      transform: rotate(90deg);
+    }
+    &.minutes {
+      background-color: black;
+      width: 80px;
+      height: 4px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 70.5px;
+      transform-origin: right;
+      transform: rotate(90deg);
+    }
+    &.hours {
+      background-color: black;
+      width: 50px;
+      height: 6px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 100.5px;
+      transform-origin: right;
+      transform: rotate(90deg);
+    }
+  }
+}
